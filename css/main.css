@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+:root {
+   --primary-color: #FF5A3D;
+   --second-color: #FBC531;
+   --third-color: #FFF954;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+   background: var(--primary-color);
+   line-height: 1.3;
+}
+
+/* GLOBAL */
+.container {
+   width: 85%;
+   margin: auto;
+   position: relative;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #FFF;
+}
+
+.active {
+   color: var(--second-color);
+   font-weight: 600;
+}
+
+/* MAIN NAV */
+.main-nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 10vh;
+}
+
+.logo {
+   flex: 1;
+   text-transform: uppercase;
+}
+
+.logo a {
+   font-size: 2rem;
+   font-weight: 100;
+}
+
+.logo span {
+   font-weight: bold;
+}
+
+.logo i.fa-shopify {
+   font-size: 2rem;
+   text-align: center;
+   color: var(--third-color);
+}
+
+.main-menu {
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/* SHOWCASE */
+.schowcase {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.collection {
+   width: 45%;
+   margin-right: auto;
+}
+
+span.new {
+   color: #FBC531;
+   text-transform: uppercase;
+}
+
+h1 {
+   margin-top: .5rem;
+   margin-bottom: 1rem;
+   color: #FFF;
+   font-size: 3rem;
+}
+
+p {
+   color: #FFF;
+   font-weight: 300;
+   margin-bottom: 2rem;
+}
+
+h1 span {
+   color: var(--second-color);
+}
+
+/* btn */
+
+.btn {
+   width: 200px;
+   height: 50px;
+   border: 1px solid #FFF;
+   outline: none;
+   background: none;
+   color: #FFF;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 1rem;
+   border-radius: 3px;
+   cursor: pointer;
+}
+
+.btn .fa-angle-right {
+   margin-left: 1rem;
+   font-size: 1.2rem;
+}
+
+img {
+   height: 90vh;
+   margin-right: 5rem;
+}
+
+/* Vector */
+.vector {
+   height: 20vh;
+}
+
+.vector-1 {
+   position: absolute;
+   top: 50%;
+   left: -80px;
+   z-index: -1;
+}
+
+.vector-2 {
+   position: absolute;
+   top: 80%;
+   right: -14%;
+}
